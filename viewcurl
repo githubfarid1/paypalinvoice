@@ -1,0 +1,315 @@
+stdClass Object
+(
+    [id] => INV2-9V6D-LXJ8-HWZD-YY7Q
+    [status] => DRAFT
+    [detail] => stdClass Object
+        (
+            [currency_code] => USD
+            [note] => Thank you for your business.
+            [memo] => This is a long contract
+            [category_code] => SHIPPABLE
+            [invoice_number] => #0003
+            [invoice_date] => 2022-01-01
+            [payment_term] => stdClass Object
+                (
+                    [term_type] => NET_10
+                    [due_date] => 2022-01-11
+                )
+
+            [viewed_by_recipient] =>
+            [group_draft] =>
+            [metadata] => stdClass Object
+                (
+                    [create_time] => 2022-02-07T05:29:58Z
+                    [last_update_time] => 2022-02-07T05:29:58Z
+                    [created_by_flow] => REGULAR_SINGLE
+                    [recipient_view_url] => https://www.sandbox.paypal.com/invoice/p/#9V6DLXJ8HWZDYY7Q
+                    [invoicer_view_url] => https://www.sandbox.paypal.com/invoice/details/INV2-9V6D-LXJ8-HWZD-YY7Q
+                    [caller_type] => API_V2_INVOICE
+                )
+
+            [archived] =>
+        )
+
+    [invoicer] => stdClass Object
+        (
+            [name] => stdClass Object
+                (
+                    [given_name] => Mohamad Farid
+                    [surname] => Saleh
+                    [full_name] => Mohamad Farid Saleh
+                )
+
+            [email_address] => opencartplugin-facilitator@gmail.com
+        )
+
+    [primary_recipients] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [billing_info] => stdClass Object
+                        (
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Stephanie
+                                    [surname] => Meyers
+                                    [full_name] => Stephanie Meyers
+                                )
+
+                            [email_address] => henry@mail.com
+                        )
+
+                )
+
+        )
+
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [id] => ITEM-2UU38850BP2653513
+                    [name] => B20
+                    [description] => B20
+                    [quantity] => 1.5
+                    [unit_amount] => stdClass Object
+                        (
+                            [currency_code] => USD
+                            [value] => 9.50
+                        )
+
+                    [tax] => stdClass Object
+                        (
+                            [id] => TAX-0DY7288172269560K
+                            [name] => MN Sales Tax
+                            [percent] => 7.25
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 1.03
+                                )
+
+                        )
+
+                    [unit_of_measure] => QUANTITY
+                )
+
+            [1] => stdClass Object
+                (
+                    [id] => ITEM-5UG70596V2176283P
+                    [name] => B15
+                    [description] => B15
+                    [quantity] => 5
+                    [unit_amount] => stdClass Object
+                        (
+                            [currency_code] => USD
+                            [value] => 5.25
+                        )
+
+                    [tax] => stdClass Object
+                        (
+                            [id] => TAX-0DY7288172269560K
+                            [name] => MN Sales Tax
+                            [percent] => 7.25
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 1.90
+                                )
+
+                        )
+
+                    [unit_of_measure] => QUANTITY
+                )
+
+            [2] => stdClass Object
+                (
+                    [id] => ITEM-652856583T492732R
+                    [name] => N14
+                    [description] => N14
+                    [quantity] => 2
+                    [unit_amount] => stdClass Object
+                        (
+                            [currency_code] => USD
+                            [value] => 6.55
+                        )
+
+                    [tax] => stdClass Object
+                        (
+                            [id] => TAX-0DY7288172269560K
+                            [name] => MN Sales Tax
+                            [percent] => 7.25
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 0.95
+                                )
+
+                        )
+
+                    [unit_of_measure] => QUANTITY
+                )
+
+            [3] => stdClass Object
+                (
+                    [id] => ITEM-8P8577327Y7480616
+                    [name] => S4
+                    [description] => S4
+                    [quantity] => 3
+                    [unit_amount] => stdClass Object
+                        (
+                            [currency_code] => USD
+                            [value] => 3.00
+                        )
+
+                    [tax] => stdClass Object
+                        (
+                            [id] => TAX-0DY7288172269560K
+                            [name] => MN Sales Tax
+                            [percent] => 7.25
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 0.65
+                                )
+
+                        )
+
+                    [unit_of_measure] => QUANTITY
+                )
+
+            [4] => stdClass Object
+                (
+                    [id] => ITEM-15K57302RD391105V
+                    [name] => 3YD201
+                    [description] => 3YD201
+                    [quantity] => 1
+                    [unit_amount] => stdClass Object
+                        (
+                            [currency_code] => USD
+                            [value] => 39.00
+                        )
+
+                    [tax] => stdClass Object
+                        (
+                            [id] => TAX-0DY7288172269560K
+                            [name] => MN Sales Tax
+                            [percent] => 7.25
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 2.83
+                                )
+
+                        )
+
+                    [unit_of_measure] => QUANTITY
+                )
+
+        )
+
+    [configuration] => stdClass Object
+        (
+            [tax_calculated_after_discount] =>
+            [tax_inclusive] =>
+            [allow_tip] =>
+            [template_id] => TEMP-12N57286MJ480692T
+        )
+
+    [amount] => stdClass Object
+        (
+            [breakdown] => stdClass Object
+                (
+                    [item_total] => stdClass Object
+                        (
+                            [currency_code] => USD
+                            [value] => 101.60
+                        )
+
+                    [discount] => stdClass Object
+                        (
+                            [invoice_discount] => stdClass Object
+                                (
+                                    [amount] => stdClass Object
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                            [item_discount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 0.00
+                                )
+
+                        )
+
+                    [tax_total] => stdClass Object
+                        (
+                            [currency_code] => USD
+                            [value] => 7.36
+                        )
+
+                    [shipping] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 8.00
+                                )
+
+                        )
+
+                )
+
+            [currency_code] => USD
+            [value] => 116.96
+        )
+
+    [due_amount] => stdClass Object
+        (
+            [currency_code] => USD
+            [value] => 116.96
+        )
+
+    [links] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/invoicing/invoices/INV2-9V6D-LXJ8-HWZD-YY7Q
+                    [rel] => self
+                    [method] => GET
+                )
+
+            [1] => stdClass Object
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/invoicing/invoices/INV2-9V6D-LXJ8-HWZD-YY7Q/send
+                    [rel] => send
+                    [method] => POST
+                )
+
+            [2] => stdClass Object
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/invoicing/invoices/INV2-9V6D-LXJ8-HWZD-YY7Q
+                    [rel] => replace
+                    [method] => PUT
+                )
+
+            [3] => stdClass Object
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/invoicing/invoices/INV2-9V6D-LXJ8-HWZD-YY7Q
+                    [rel] => delete
+                    [method] => DELETE
+                )
+
+            [4] => stdClass Object
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/invoicing/invoices/INV2-9V6D-LXJ8-HWZD-YY7Q/payments
+                    [rel] => record-payment
+                    [method] => POST
+                )
+
+        )
+
+)
