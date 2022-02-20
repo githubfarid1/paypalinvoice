@@ -1,6 +1,2 @@
-# bootstrap4-responsive-sidebar
-Bootstrap 4 Fixed positioned responsive sidebar
-
-# Screenshot
-
-![Screenshot](menu-screenshot.png?raw=true "Screenshot")
+# PayPal API Documentation
+https://developer.paypal.com/api/invoicing/v2/#invoices
